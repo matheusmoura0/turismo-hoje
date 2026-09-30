@@ -23,4 +23,4 @@ Para incluir as Pages Functions, rode o comando na raiz do projeto (onde está `
 
 O proxy usa `GET /api/v1/sites/by-domain/articles?domain=turismohoje.com.br`. As matérias e as categorias precisam estar publicadas no site Turismo Hoje dentro do Hub. O proxy de matéria usa `GET /api/v1/articles/:id`.
 
-A criação editorial direta pelo repórter ainda precisa ser adicionada ao painel Rails do Hub. A migration desta integração cadastra o site e suas editorias; o portal lê somente matérias já publicadas.
+O Hub permite ao repórter criar matérias para revisão editorial e publicação no Turismo Hoje. A home e as páginas públicas leem apenas matérias já publicadas.
